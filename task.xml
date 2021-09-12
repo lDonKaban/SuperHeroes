@@ -1,0 +1,69 @@
+<!--
+Данные:
+- список персонажей Marvel с их навыками и уровнем владения
+- список комиксов со списком учавствующих персонажей
+Задача:
+Вывести супергероев в порядке убывания суммы уровней всех их умений
+В качестве выходной информации предоставить:
+1. Имя героя
+2. Количество навыков
+3. Сумма уровней всех навыков
+4. Наименование ключевого навыка
+5. Количество комиксов с героем
+6. Наименования всех комиксов с героем
+-->
+<data>
+  <character name="Superman">
+    <skill name="Непробиваемая кожа" level="3.1" main="true"/>
+    <skill name="Полет" level="1"/>
+    <skill name="Сила" level="5"/>
+    <skill name="Скорость" level="7"/>
+  </character>
+  <character name="Hulk">
+    <skill name="Сверхсила" level="12" main="true"/>
+    <skill name="Непробиваемая кожа" level="5"/>
+    <skill name="Выносливость" level="7"/>
+  </character>
+  <character name="Dr. Manhattan">
+    <skill name="Бессмертие" level="11" main="true"/>
+    <skill name="Создавать вселенные" level="5.552"/>
+    <skill name="Управлять всем на атомном уровне" level="1"/>
+    <skill name="Сила" level="7"/>
+    <skill name="Скорость" level="1"/>
+  </character>
+  <character name="Silver Surfer">
+    <skill name="Космическая Сила" level="2" main="true"/>
+    <skill name="Божественная Сила" level="4.1"/>
+    <skill name="Неуязвимость" level="6"/>
+    <skill name="Божественная Выносливость" level="0.1"/>
+    <skill name="Космическое Чутье" level="0.2"/>
+    <skill name="Космическое Исцеление" level="1.5"/>
+    <skill name="Космическое Самоподдержание" level="2"/>
+    <skill name="Наделять силой других" level="0.2"/>
+  </character>
+  <character name="Green Lantern">
+    <skill name="Неограниченные возможности кольца" level="6" main="true"/>
+    <skill name="Невидимость" level="1.344"/>
+    <skill name="Полет" level="2.2"/>
+    <skill name="Сила" level="4.3"/>
+    <skill name="Скорость" level="2"/>
+  </character>
+  <comic heroes="Silver Surfer, Green Lantern, Batman, Superman" name="A"/>
+  <comic heroes="Dr. Manhattan" name="B"/>
+  <comic heroes="Beyonce, Superman" name="C"/>
+  <comic heroes="Green Lantern, Silver Surfer, Dr. Manhattan, Superman, Green Lantern" name="D"/>
+  <comic heroes="Dr. Manhattan" name="E"/>
+  <comic heroes="Superman, Dr. Manhattan, Hulk, Silver Surfer" name="F"/>
+  <comic heroes="Hulk, Silver Surfer" name="G"/>
+  <comic heroes="Green Lantern" name="H"/>
+  <comic heroes="Silver Surfer" name="I"/>
+  <comic heroes="Hulk" name="J"/>
+  <comic heroes="Superman, Green Lantern" name="K"/>
+  <comic heroes="Superman, Dr. Manhattan, Green Lantern" name="L"/>
+  <comic heroes="Superman, Hulk, Silver Surfer" name="M"/>
+  <comic heroes="Green Lantern" name="O"/>
+  <comic heroes="Hulk, Dr. Manhattan" name="P"/>
+  <comic heroes="Silver Surfer" name="Q"/>
+  <comic heroes="Silver Surfer" name="R"/>
+  <comic heroes="Beyonce, Silver Surfer, Dr. Manhattan, Hulk" name="S"/>
+</data>
