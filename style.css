@@ -1,0 +1,33 @@
+.list {
+    list-style: none;
+    counter-reset: css;
+    text-align: center;
+}
+
+.info {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 100px;
+    margin-left: 40%;
+}
+
+.list__item {
+    cursor: pointer;
+    display: inline-block;
+}
+  
+.list__item::before {
+    counter-increment: css;
+    content: counter(css);
+    margin-right: .5rem;
+}
+  
+.list__item::before {
+    width: 2rem;
+    line-height: 2rem;
+    display: inline-block;
+    background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
+    border-radius: 1rem;
+    text-align: center;
+    color: #fff;
+}
